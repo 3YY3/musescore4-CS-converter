@@ -19,10 +19,10 @@ Almost everything necessary! Here is how it works:
 7. and that's it!
 
 What happens next? Well...
-- Lua script will convert dynamics from .mxl notation events into CC1
+- Lua script will convert dynamics from .mxl notation events into CC1 (not only p, pp, fff, etc. values but also crescendos and diminuendos - as long as they are done properly in Musescore)
 - Applies offset to legato notes so that they sound straight in beat
-- Sets CC64 values for rebow/retongue
-- Converts CC1 values of short artiulation notes to their velocity
+- Sets CC64 values so you make use of rebow/retongue samples in CS libraries
+- Converts CC1 values of short artiulation notes to their velocity (you don't need to mess up with velocities for short articulations anymore!)
 - Moves REAticulate events together with changes done to legato articulation notes
 
 # Dependencies
