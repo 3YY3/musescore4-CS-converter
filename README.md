@@ -13,7 +13,7 @@ Almost everything necessary! Here is how it works:
 1. Compose something in Musescore 4,
 2. export .mxl files for every instrument/section,
 3. import them in the Reaper,
-4. in each .mxl item set articulations via REAticulate (first click on the note at which an articulation is changed and then select from REAticulate menu - articulation change must correspong with a note in order to work),
+4. in each .mxl item set articulations via REAticulate according to your work in Musescore (first click on the note at which an articulation is changed and then select from REAticulate menu - articulation change must correspong with a note in order to work),
 5. then you set velocities for long articulations (this tool enables you to use all legato variants CS libraries offer without hassle!),
 6. run the script,
 7. and that's it!
