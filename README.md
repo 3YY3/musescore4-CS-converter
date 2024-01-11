@@ -5,3 +5,8 @@ This script is made for [Reaper DAW](https://www.reaper.fm/).
 
 # What is does?
 xyz
+
+# Dependencies
+In order to use this script, you need to install:
+- [Scythe v3](https://jalovatt.github.io/scythe/#/)
+- [MIDI Utils](https://forum.cockos.com/showthread.php?p=2630436)
