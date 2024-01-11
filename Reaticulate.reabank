@@ -1,0 +1,325 @@
+// Reabank file for Reaticulate - https://reaticulate.com/
+//
+// This file is a specially formatted Reabank file that is notated for use by Reaticulate.
+// Specification can be found here:
+//
+//      https://reaticulate.com/reabank.html
+//
+// You can also import user-contributed bank files for additional libraries not included
+// in the factory set:
+//
+//      https://reaticulate.com/banks
+//
+//
+// Numbers used:
+// CSS1.7: 0-18, 100-101
+// CSB: 19-33, 102-103
+// CSW: 34-46
+// CSSS: 47-65
+// OEC: 66-68
+// CCH: 69-87
+
+//! g="Cinematic Studio" n="Strings Section (1.7)"
+//! id=f15c66ca-3b1a-47b1-988b-4d35e89920c5
+Bank * * String Section
+
+//! c=legato i=legato-fast o=cc:58,0
+0 Sustain: Low-latency Legato
+
+//! c=legato-dark i=legato o=cc:58,6
+1 Sustain: Expressive Legato
+
+//! c=short i=spiccato o=cc:58,11
+2 Spiccato
+
+//! c=short i=staccatissimo-stopped o=cc:58,16
+3 Staccatissimo
+
+//! c=short i=staccato o=cc:58,21
+4 Staccato
+
+//! c=short i=sfz o=cc:58,26
+5 Sfz
+
+//! c=short-light i=pizz o=cc:58,31
+6 Pizzicato
+
+//! c=short-light i=pizz-bartok o=cc:58,36
+7 Bartok snap
+
+//! c=short-light i=col-legno o=cc:58,41
+8 Col Legno
+
+//! c=long i=trill o=cc:58,46
+9 Trills
+
+//! c=legato-light i=harmonics o=cc:58,51
+10 Harmonics
+
+//! c=long i=tremolo o=cc:58,56
+11 Tremolo
+
+//! c=long i=tremolo-measured-sixteenth o=cc:58,61
+12 Measured Tremolo
+
+//! c=long i=marcato-half o=cc:58,66
+13 Marcato: No overlay
+
+//! c=long i=marcato-half o=cc:58,71
+14 Marcato: Spiccato overlay
+
+//! i=legato o=cc:58,76
+15 Legato On
+
+//! o=cc:58,81
+16 Legato Off
+
+//! i=con-sord o=cc:58,86
+17 Con Sordino On
+
+//! o=cc:58,91
+18 Con Sordino Off
+
+//! c=fx i=dblstop-5th-eighth o=cc:2,100/cc:7,106
+100 Divisi Switch
+
+//! c=fx i=	note-eighth o=cc:2,127/cc:7,127
+101 Tutti Switch
+
+
+//! g="Cinematic Studio" n="Brass Section"
+//! id=a441375e-ecb2-42e4-8c75-2f20c76bcabe
+Bank * * Brass Section
+
+//! c=legato i=legato-fast o=cc:58,0
+19 Sustain
+
+//! c=short i=spiccato-breath o=cc:58,11
+20 Repetitions
+
+//! c=short i=Staccatissimo o=cc:58,16
+21 Staccatissimo
+
+//! c=short i=staccato o=cc:58,21
+22 Staccato
+
+//! c=short i=sfz o=cc:58,26
+23 Sfz
+
+//! c=short i=ghost-eighth o=cc:58,31
+24 Muted short notes
+
+//! c=textured i=rip o=cc:58,41
+25 Rips
+
+//! c=long i=trill o=cc:58,46
+26 Trills
+
+//! c=long i=tremolo o=cc:58,51
+27 Flutter Tongue
+
+//! c=long i=alt-x o=cc:58,56
+28 Muted long notes
+
+//! c=long i=multitongued o=cc:58,61
+29 Double Tongue
+
+//! c=long i=marcato-half o=cc:58,66
+30 Marcato: No overlay
+
+//! c=long i=marcato-half o=cc:58,71
+31 Marcato: Spiccato overlay
+
+//! i=legato o=cc:58,76
+32 Legato On
+
+//! o=cc:58,81
+33 Legato Off
+
+//! c=fx i=dblstop-5th-eighth o=cc:7,106
+100 Divisi Switch
+
+//! c=fx i=	note-eighth o=cc:7,127
+101 Tutti Switch
+
+
+//! g="Cinematic Studio" n="Woodwinds Section"
+//! id=1a4ef620-5a2e-4366-be79-d52dc5dc77ec
+Bank * * Woodwinds Section
+
+//! c=legato i=legato-fast o=cc:58,0
+34 Sustain: Low-latency Legato
+
+//! c=legato-dark i=legato o=cc:58,6
+35 Sustain: Expressive Legato
+
+//! c=short i=spiccato-breath o=cc:58,11
+36 Repetitions
+
+//! c=short i=Staccatissimo o=cc:58,16
+37 Staccatissimo
+
+//! c=short i=staccato o=cc:58,21
+38 Staccato
+
+//! c=short i=sfz o=cc:58,26
+39 Sfz
+
+//! c=long i=trill o=cc:58,46
+40 Trills
+
+//! c=long i=tremolo o=cc:58,51
+41 Flutter Tongue (Flutes only)
+
+//! c=short i=spiccato-breath o=cc:58,61
+42 Measured repetitions
+
+//! c=long i=marcato-half o=cc:58,66
+43 Marcato: No overlay
+
+//! c=long i=marcato-half o=cc:58,71
+44 Marcato: Spiccato overlay
+
+//! i=legato o=cc:58,76
+45 Legato On
+
+//! o=cc:58,81
+46 Legato Off
+
+
+//! g="Cinematic Studio" n="Solo Strings"
+//! id=66747e43-1141-4f50-bcfd-a3b0951d684d
+Bank * * Solo Strings
+
+//! c=legato i=legato-fast o=cc:58,0
+47 Sustain: Standart Legato
+
+//! c=legato-dark i=legato o=cc:58,6
+48 Sustain: Advanced Legato
+
+//! c=short i=spiccato o=cc:58,11
+49 Spiccato
+
+//! c=short i=staccatissimo-stopped o=cc:58,16
+50 Staccatissimo
+
+//! c=short i=staccato o=cc:58,21
+51 Staccato
+
+//! c=short i=sfz o=cc:58,26
+52 Sfz
+
+//! c=short-light i=pizz o=cc:58,31
+53 Pizzicato
+
+//! c=short-light i=pizz-bartok o=cc:58,36
+54 Bartok snap
+
+//! c=short-light i=col-legno o=cc:58,41
+55 Col Legno
+
+//! c=long i=trill o=cc:58,46
+56 Trills
+
+//! c=legato-light i=harmonics o=cc:58,51
+57 Harmonics
+
+//! c=long i=tremolo o=cc:58,56
+58 Tremolo
+
+//! c=long i=tremolo-measured-sixteenth o=cc:58,61
+59 Measured Tremolo
+
+//! c=long i=marcato-half o=cc:58,66
+60 Marcato: No overlay
+
+//! c=long i=marcato-half o=cc:58,71
+61 Marcato: Spiccato overlay
+
+//! i=legato o=cc:58,76
+62 Legato On
+
+//! o=cc:58,81
+63 Legato Off
+
+//! i=con-sord o=cc:58,86
+64 Con Sordino On
+
+//! o=cc:58,91
+65 Con Sordino Off
+
+
+//! g="Spitfire" n="OriginalsEpicChoir"
+//! id=8d39fcfa-95ad-4aff-969b-0e32c3929dd2
+Bank * * Choir
+
+//! c=legato i=alt-wave-double o=@1
+66 Sustain Ahh
+
+//! c=legato-dark i=alt-x o=@2
+67 Sustain Mmm
+
+//! c=short-light i=staccato o=@3
+68 Staccato Syllables
+
+
+//! g="CineSamples" n="CineHarps"
+//! id=3a3ab358-82d9-4d62-9893-b19c79fef030
+Bank * * Harps
+
+//! c=short-light i=note-quarter o=@1
+69 Plucked
+
+//! c=legato i=legato-gliss spacer=1 o=@2/note@2:24
+70 Glissando; Major
+
+//! c=legato i=legato-gliss o=@2/note@2:26
+71 Glissando; Harm. minor
+
+//! c=legato i=legato-gliss o=@2/note@2:28
+72 Glissando; Maj. pentatonic
+
+//! c=legato i=legato-gliss o=@2/note@2:29
+73 Glissando; Octatonic
+
+//! c=legato i=legato-gliss o=@2/note@2:31
+74 Glissando; Half diminish.
+
+//! c=legato i=legato-gliss o=@2/note@2:33
+75 Glissando; Full diminish.
+
+//! c=legato i=legato-gliss o=@2/note@2:35
+76 Glissando; Whole tone
+
+//! c=fx i=list o=@2/note@2:36
+77 Short
+
+//! c=fx i=list o=@2/note@2:38
+78 Medium
+
+//! c=fx i=list o=@2/note@2:40
+79 Long
+
+//! c=legato-dark i=phrase spacer=1 o=@3/note@3:24
+80 Gliss. ad lib.; Major
+
+//! c=legato-dark i=phrase o=@3/note@3:26
+81 Gliss. ad lib.; Harm. minor
+
+//! c=legato-dark i=phrase o=@3/note@3:28
+82 Gliss. ad lib.; Maj. pentatonic
+
+//! c=legato-dark i=phrase o=@3/note@3:29
+83 Gliss. ad lib.; Octatonic
+
+//! c=legato-dark i=phrase o=@3/note@3:31
+84 Gliss. ad lib.; Half diminish.
+
+//! c=legato-dark i=phrase o=@3/note@3:33
+85 Gliss. ad lib.; Full diminish.
+
+//! c=legato-dark i=phrase o=@3/note@3:35
+86 Gliss. ad lib.; Whole tone
+
+//! c=legato-dark i=phrase o=@3/note@3:36
+87 Gliss. ad lib.; Dominant 7th
